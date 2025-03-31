@@ -1,0 +1,96 @@
+/**
+**************** Initialisation ***********************************************
+**/
+*{
+    margin :0;
+    padding :0;
+    box-sizing : border-box;
+    }
+/**
+**************** Police *******************************************************
+**/
+/********** Chronicle Display ******************************/
+/** Chronicle Display Black light **/
+@font-face{
+    font-family:'Chronicle Display Black';
+    src:url('../fonts/chronicle-display/chronicle-display-black.otf')
+}
+/** Chronicle Display Semi-bold light **/
+@font-face{
+    font-family:'Chronicle Display Semi-bold';
+    src:url('../fonts/chronicle-display/chronicle-display-semibold.otf')
+}
+/********** Gilroy ****************************/
+/** Gilroy Heavy **/
+@font-face{
+    font-family:'Gilroy Heavy';
+    src:url('../fonts/gilroy/gilroy-heavy.ttf')
+}
+/** Gilroy Extra-bold **/
+@font-face{
+    font-family:'Gilroy Bold';
+    src:url('../fonts/gilroy/gilroy-bold.ttf')
+}
+/** Gilroy Medium **/
+@font-face{
+    font-family:'Gilroy Medium';
+    src:url('../fonts/gilroy/gilroy-medium.ttf')
+}
+/**
+**************** Commun **************************
+**/
+body
+{
+    font-family:'Gilroy Medium', sans-serif;
+}
+#carre-rouge-1, #carre-rouge-2 {
+    width : 10rem;
+    height: 10rem;
+    background-color: red;
+    margin : 1rem;
+}
+.carre-vert {
+    width : 10rem;
+    height: 10rem;
+    background-color: green;
+    margin : 1rem;
+}
+.rond-bleu {
+    width : 10rem;
+    height: 10rem;
+    background-color: blue;
+    margin : 1rem;
+    border-radius : "5rem"
+}
+.row{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+.titre{
+    color : green;
+    font-size :  4rem;
+}
+.hidden{
+    display : none;
+}
+.accordion-btn, .accordion-btn2, .accordion-btn3{
+    background-color : #EEEEEE;
+    font-size : 1rem;
+    font-family:'Gilroy Bold', sans-serif;
+    border-bottom: 2px #000000 solid;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.accordion-content, .accordion-content2, .accordion-content3{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-top:0.5rem;
+    margin-bottom:1.5rem;
+}
+.closed, .closed2, .closed3{
+    font-size : 2rem;
+    font-family:'Gilroy Bold', sans-serif;
+}
