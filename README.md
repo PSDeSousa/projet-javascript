@@ -17,7 +17,7 @@ Bienvenue dans le projet **Jeu-du-guerrier**, un jeu de rôle
 
 ## 📂 Structure du projet
 
-projet-mcdo/
+jeu-du-guerrier/
 ├── assets/
 │   └── images/             # Icônes et images
 │   └── base/               # Fichiers SCSS
